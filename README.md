@@ -1,35 +1,26 @@
-# LeviLamina Mod Template
+# QuickMsg - 快捷私信
 
-A LeviLamina mod template
+# 简介
+QuickMsg 是一个基于LeviLamina的C++模组，功能是快捷发送给其他玩家私信
+> 想要了解铁砧输入框怎么弄的开发者可以自行查看代码，已写注释   
 
-This mod is a template for developing LeviLamina mods.
+> 使用BSD开源协议，您可以自由的修改与分发插件，但请务必保留原作者信息
 
-## Install
+# 使用方法
+`潜行`+`右键`玩家，即可打开铁砧界面   
+输入要说的话，然后`点击/移动`铁砧`第三格(即结果位)`即可发送私信
 
-Generate a new repository from this template.
+![图片展示](https://github.com/zimuya4153/QuickMsg/blob/main/image/1.png?raw=true)
 
-## Usage
+# 配置文件
+无
 
-Before using this mod template, make sure that you have installed XMake and a Minecraft Bedrock Server with LeviLamina.
+## 安装方法
 
-1. Clone the new repository into a local folder.
-
-1. Change the mod name and the expected LeviLamina version in `xmake.lua`.
-
-1. Add your code.
-
-1. Run `xmake repo -u` in the root of the repository.
-
-1. Run `xmake` to build the mod.
-
-Now the build is complete at `bin/`.
-
-## Contributing
-
-Ask questions by creating an issue.
-
-PRs accepted.
-
-## License
-
-CC0-1.0 © LiteLDev
+- 手动安装
+  - 前往[Releases](https://github.com/zimuya4153/QuickMsg/releases)下载最新版本的`QuickMsg-windows-x64.zip`
+  - 解压`压缩包内的`文件夹到`./plugins/`目录
+- Lip 安装
+  - 输入命令`lip install -y github.com/zimuya4153/QuickMsg`
+- ~~一条龙安装~~
+  - ~~去 Q 群，喊人，帮你安装~~
